@@ -1,0 +1,27 @@
+---
+title: "Création d'un blog avec distill"
+author: "Guyliann Engels & Philippe Grosjean"
+date: "`r Sys.Date()`"
+output: bookdown::html_document2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(comment = "#", fig.align = "center")
+```
+
+##### Objectifs {-}
+
+
+# Introduction 
+
+
+le site web de référence <https://rstudio.github.io/distill/>
+
+
+```{block, type = 'bdd'}
+test
+```
+
+# etape par etape
+
+trgrg
