@@ -51,9 +51,9 @@ Il faut tout débuter par initialiser votre blog :
 
 
 - Editez le fichier de paramètre du blog : `_site.yml`
-      + titre de blog ->  title: 
-      + l'url de l'icone GitHub par https://github.com/NOM-UTILISATEUR/PRENOM-NOM-blog `href:`
-      + l'url de votre blog par https://NOM-UTILISATEUR.github.io/PRENOM-NOM-blog/  `base_url:`
+    + titre de blog ->  `title:` 
+    + l'url de l'icone GitHub par https://github.com/NOM-UTILISATEUR/PRENOM-NOM-blog `href:`
+    + l'url de votre blog par https://NOM-UTILISATEUR.github.io/PRENOM-NOM-blog/  `base_url:`
 
 - Construisez votre site avec l'instruction `Build Website`
 
@@ -63,7 +63,7 @@ Il faut tout débuter par initialiser votre blog :
 
 - Réalisez un `Push` 
 
-- Dasn GitHub, Vérifiez que vous commit est bien présent sur votre dépot en ligne
+- Dans GitHub, Vérifiez que vos `commit` est bien présent sur votre dépot en ligne
 
 - Dans la section Settings, Changez la source de la GitHub Pages de `None` par `master branch/docs folder` 
 
@@ -98,3 +98,36 @@ distill::create_post("article-1")
 Comme vous pouvez le voir, un dossier avec la date a été automatiquement créé. Ce premier article regorge d'idée de personalisation de vos articles.
 
 Il existe de nombreuses astuces sur le site <https://rstudio.github.io/distill/blog.html#creating-a-post>
+
+# Ajouter Disqus 
+
+Disqus est un service web qui permet de gérer des discussion sur des blogs. Pour ajouter disqus, vous devez suivre les instructions ci-dessous :
+
+- Ouvrez Chromium et entrez l'url suivant : <https://disqus.com> 
+
+- Cliquez sur `Get Started` et créez vous un comptez sur disqus 
+
+![](images/figures/disqus2.png) 
+
+- Cliquez ensuite sur `I want to install Disqus on my site`
+
+- Ajoutez le nom de votre website
+
+![](images/figures/disqus3.gif) 
+
+- Dans les configuration de disqus, entrez l'adresse de votre blog
+
+![](images/figures/disqus4.gif) 
+
+- Copiez le shortname de votre site qui se trouve dans la section `Edit Settings`.
+
+![](images/figures/disqus5.gif) 
+
+
+- Dans le fichier _site.yml de votre projet ajoutez votre `shortname` comme présenté dans l'image suivante.
+
+![](images/figures/disqus6.gif) 
+
+- Terminez par construire votre site, un `Commit` et un `Push`
+
+![](images/figures/disqus7.gif) 
