@@ -37,3 +37,7 @@ rsconnect/
 
 # README
 README.html
+
+# DS_store
+
+*.DS_Store
