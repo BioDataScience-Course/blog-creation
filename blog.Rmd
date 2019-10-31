@@ -97,7 +97,7 @@ distill::create_post("article-1")
 
 Comme vous pouvez le voir, un dossier avec la date a été automatiquement créé. Ce premier article regorge d'idée de personalisation de vos articles.
 
-Il existe de nombreuses astuces sur le site <https://rstudio.github.io/distill/blog.html#creating-a-post>
+Il existe de nombreuses astuces sur le site <https://rstudio.github.io/distill/blog.html>
 
 # Ajouter Disqus 
 
