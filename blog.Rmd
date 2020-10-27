@@ -15,7 +15,9 @@ knitr::opts_chunk$set(comment = "#", fig.align = "center")
 
 ##### Prérequis {-}
 
-Si ce n’est déjà fait, vous devez installer et vous familiariser avec la ‘SciViews Box’, RStudio, Markdown. Vous devez aussi maîtriser les bases de Git et de GitHub (avoir un compte GitHub, savoir cloner un dépôt localement, travailler avec GitHub Desktop pour faire ses “commits”, “push” et “pull”). L’ensemble de ces outils ont été abordé dans le [module 1](http://biodatascience-course.sciviews.org/sdd-umons/intro.html) de l'[ouvrage interactif Science des données biologiques](http://biodatascience-course.sciviews.org/sdd-umons/). 
+Si ce n’est déjà fait, vous devez installer et vous familiariser avec la ‘SciViews Box’, RStudio, Markdown. Vous devez aussi maîtriser les bases de Git et de GitHub (avoir un compte GitHub, savoir cloner un dépôt localement, travailler avec GitHub Desktop pour faire ses “commits”, “push” et “pull”). 
+
+L’ensemble de ces outils ont été abordé dans le [module 1](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2020/intro.html) de l'[ouvrage interactif Science des données biologiques](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2020/). 
 
 # Introduction 
 

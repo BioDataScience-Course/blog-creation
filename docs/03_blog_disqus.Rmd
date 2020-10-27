@@ -1,0 +1,43 @@
+---
+title: "Ajout de disqus sur mon blog"
+author: "Guyliann ENGELS"
+date: "27/10/2020"
+output: github_document
+---
+
+Disqus est un service web qui permet de gérer des discussions sur des blogs. 
+
+
+## Procédure
+
+Pour ajouter disqus, vous devez suivre les instructions ci-dessous :
+
+- Cliquez sur le lien suivant: <https://disqus.com> 
+
+- Cliquez sur `Get Started` et créez vous un comptez sur disqus 
+
+![](../images/figures/disqus2.png) 
+
+
+- Cliquez ensuite sur `I want to install Disqus on my site`
+
+- Ajoutez le nom de votre website
+
+![](../images/figures/disqus3.gif)
+
+- Dans les configuration de disqus, entrez l'adresse de votre blog
+
+![](../images/figures/disqus4.gif) 
+
+- Copiez le shortname de votre site qui se trouve dans la section `Edit Settings`.
+
+![](../images/figures/disqus5.gif) 
+
+
+- Dans le fichier _site.yml de votre projet ajoutez votre `shortname` comme présenté dans l'image suivante.
+
+![](../images/figures/disqus6.gif)
+
+- Terminez par construire votre site, un `Commit` et un `Push`
+
+![](../images/figures/disqus7.gif) 
